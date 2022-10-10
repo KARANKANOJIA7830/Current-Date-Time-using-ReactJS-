@@ -1,12 +1,20 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+const Name="Karan Kanojia";
+const currDate = new Date().toLocaleDateString();
+const currTime = new Date().toLocaleTimeString();
+
+ReactDOM.render(
+  <>
+    <h1>
+      {`Hello, my name is ${Name}`}
+    </h1>
+    <p>Current date is = {currDate} </p>
+    <p>Current date is = {currTime} </p>
+  </>,
+  document.getElementById("root")
 );
