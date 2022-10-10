@@ -14,7 +14,7 @@ ReactDOM.render(
       {`Hello, my name is ${Name}`}
     </h1>
     <p>Current date is = {currDate} </p>
-    <p>Current date is = {currTime} </p>
+    <p>Current time is = {currTime} </p>
   </>,
   document.getElementById("root")
 );
