@@ -80,4 +80,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 This will look like -->
 
 <br>
-![date time](https://user-images.githubusercontent.com/86140822/194882212-d967d9cf-c14b-4ecc-ac8f-07bb8bd174ba.png)
+<img scr="https://user-images.githubusercontent.com/86140822/194882212-d967d9cf-c14b-4ecc-ac8f-07bb8bd174ba.png">
